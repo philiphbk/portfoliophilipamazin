@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewData["Title"] = "Contact";
+}
+
+
+
+<!-- contact breadcrumb -->
+<section class="w3l-about-breadcrumb text-center">
+    <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
+        <div class="container py-2">
+            <h2 class="title">Contact Me</h2>
+            <ul class="breadcrumbs-custom-path mt-2">
+                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Contact </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- contact breadcrumb -->
+
+<!-- contact block -->
+<!-- contact1 -->
+<section class="w3l-contact-1 py-5">
+    <div class="contacts-9 py-lg-5 py-md-4">
+        <div class="container">
+            <div class="d-grid contact-view">
+                <div class="cont-details">
+                    <div class="cont-top">
+                        <div class="cont-left text-center">
+                            <span class="fa fa-phone text-primary"></span>
+                        </div>
+                        <div class="cont-right">
+                            <h6>Call Me</h6>
+                            <p><a href="tel:+234 706 769 4595">+234 706 769 4595</a></p>
+                        </div>
+                    </div>
+                    <div class="cont-top margin-up">
+                        <div class="cont-left text-center">
+                            <span class="fa fa-envelope-o text-primary"></span>
+                        </div>
+                        <div class="cont-right">
+                            <h6>Email Me</h6>
+                            <p><a href="mailto:philipfajorin@gmail.com" class="mail">philipfajorin@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="cont-top margin-up">
+                        <div class="cont-left text-center">
+                            <span class="fa fa-map-marker text-primary"></span>
+                        </div>
+                        <div class="cont-right">
+                            <h6>Location</h6>
+                            <p>Address here, Bamako Estate, Lagos, NG - 100213.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-content-9">
+                    <form action="" method="post">
+                        <div class="twice-two">
+                            <input type="text" class="form-control" name="w3lName" id="w3lName" placeholder="Name" required="" >
+                            <input type="email" class="form-control" name="w3lSender" id="w3lSender" placeholder="Email" required="">
+                        </div>
+                        <div class="twice">
+                            <input type="text" class="form-control" name="w3lSubject" id="w3lSubject" placeholder="Subject" required="">
+                        </div>
+                        <textarea name="w3lMessage" class="form-control" id="w3lMessage" placeholder="Message" required=""></textarea>
+                        <div class="text-right">
+                            <button type="submit" class="btn btn-primary btn-style mt-4">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /contact1 -->
+<div class="map-iframe">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.074520022859!2d3.3524615147036196!3d6.637667895200314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93ec11660dd9%3A0x490ac2793fb83517!2sBamako%20St%2C%20Ojodu%20101233%2C%20Ojodu!5e0!3m2!1sen!2sng!4v1657051083887!5m2!1sen!2sng" 
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!-- //contact block -->
+
